@@ -8,5 +8,7 @@ namespace ExamenParcial.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<ExamenParcial.Models.Amigo> Amigoes { get; set; }
     }
 }
